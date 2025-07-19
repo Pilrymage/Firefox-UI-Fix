@@ -21,3 +21,7 @@
   display: none !important;
 }
 */
+#sidebar-box{
+  --uc-sidebar-width: 40px;
+  --uc-sidebar-activate-width: 400px;
+}

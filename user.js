@@ -64,7 +64,7 @@ user_pref("userChrome.rounding.square_tab",           false);
 // -- User Chrome --------------------------------------------------------------
 // user_pref("userChrome.theme.private",                       true);
 // user_pref("userChrome.theme.proton_color.dark_blue_accent", true);
-// user_pref("userChrome.theme.monospace",                     true);
+user_pref("userChrome.theme.monospace",                     true);
 // user_pref("userChrome.theme.transparent.frame",             true);
 // user_pref("userChrome.theme.transparent.menu",              true);
 // user_pref("userChrome.theme.transparent.panel",             true);
@@ -81,12 +81,12 @@ user_pref("userChrome.rounding.square_tab",           false);
 // user_pref("userChrome.autohide.tabbar",                     true);
 // user_pref("userChrome.autohide.navbar",                     true);
 // user_pref("userChrome.autohide.bookmarkbar",                true);
-// user_pref("userChrome.autohide.sidebar",                    true);
+user_pref("userChrome.autohide.sidebar",                    true);
 // user_pref("userChrome.autohide.fill_urlbar",                true);
-// user_pref("userChrome.autohide.back_button",                true);
-// user_pref("userChrome.autohide.forward_button",             true);
-// user_pref("userChrome.autohide.page_action",                true);
-// user_pref("userChrome.autohide.toolbar_overlap",            true);
+user_pref("userChrome.autohide.back_button",                true);
+user_pref("userChrome.autohide.forward_button",             true);
+user_pref("userChrome.autohide.page_action",                true);
+user_pref("userChrome.autohide.toolbar_overlap",            true);
 // user_pref("userChrome.autohide.toolbar_overlap.allow_layout_shift", true);
 
 // user_pref("userChrome.hidden.tab_icon",                     true);
@@ -101,11 +101,11 @@ user_pref("userChrome.rounding.square_tab",           false);
 // user_pref("userChrome.hidden.urlbar_iconbox.label_only",    true);
 // user_pref("userChrome.hidden.bookmarkbar_icon",             true);
 // user_pref("userChrome.hidden.bookmarkbar_label",            true);
-// user_pref("userChrome.hidden.disabled_menu",                true);
+user_pref("userChrome.hidden.disabled_menu",                true);
 
 // user_pref("userChrome.centered.tab",                        true);
-// user_pref("userChrome.centered.tab.label",                  true);
-// user_pref("userChrome.centered.urlbar",                     true);
+user_pref("userChrome.centered.tab.label",                  true);
+user_pref("userChrome.centered.urlbar",                     true);
 // user_pref("userChrome.centered.bookmarkbar",                true);
 
 // user_pref("userChrome.counter.tab",                         true);
@@ -137,9 +137,9 @@ user_pref("userChrome.rounding.square_tab",           false);
 // user_pref("userChrome.padding.drag_space.maximized",        true);
 
 // user_pref("userChrome.padding.toolbar_button.compact",      true);
-// user_pref("userChrome.padding.menu_compact",                true);
+user_pref("userChrome.padding.menu_compact",                true);
 // user_pref("userChrome.padding.bookmark_menu.compact",       true);
-// user_pref("userChrome.padding.urlView_expanding",           true);
+user_pref("userChrome.padding.urlView_expanding",           true);
 // user_pref("userChrome.padding.urlView_result",              true);
 // user_pref("userChrome.padding.panel_header",                true);
 
@@ -152,7 +152,7 @@ user_pref("userChrome.rounding.square_tab",           false);
 // user_pref("userChrome.urlView.go_button_when_typing",       true);
 // user_pref("userChrome.urlView.focus_item_border",           true);
 
-// user_pref("userChrome.tabbar.as_titlebar",                  true);
+user_pref("userChrome.tabbar.as_titlebar",                  true);
 // user_pref("userChrome.tabbar.fill_width",                   true);
 // user_pref("userChrome.tabbar.multi_row",                    true);
 // user_pref("userChrome.tabbar.unscroll",                     true);
@@ -175,7 +175,7 @@ user_pref("userChrome.rounding.square_tab",           false);
 // user_pref("userChrome.tab.close_button_at_pinned",          true);
 // user_pref("userChrome.tab.close_button_at_pinned.always",   true);
 // user_pref("userChrome.tab.close_button_at_pinned.background", true);
-// user_pref("userChrome.tab.close_button_at_hover.always",    true); // Need close_button_at_hover
+user_pref("userChrome.tab.close_button_at_hover.always",    true); // Need close_button_at_hover
 // user_pref("userChrome.tab.close_button_at_hover.with_selected", true);  // Need close_button_at_hover
 // user_pref("userChrome.tab.sound_show_label",                true); // Need remove sound_hide_label
 // user_pref("userChrome.tab.container.on_top",                true);
@@ -193,7 +193,7 @@ user_pref("userChrome.rounding.square_tab",           false);
 // user_pref("userChrome.panel.full_width_separator",          true);
 // user_pref("userChrome.panel.full_width_padding",            true);
 
-// user_pref("userChrome.sidebar.overlap",                     true);
+user_pref("userChrome.sidebar.overlap",                     true);
 
 // user_pref("userChrome.icon.disabled",                       true);
 // user_pref("userChrome.icon.account_image_to_right",         true);
@@ -210,7 +210,7 @@ user_pref("userChrome.rounding.square_tab",           false);
 // user_pref("userContent.page.proton_color.dark_blue_accent", true);
 // user_pref("userContent.page.proton_color.system_accent",    true);
 // user_pref("userContent.page.dark_mode.pdf",                 true);
-// user_pref("userContent.page.monospace",                     true);
+user_pref("userContent.page.monospace",                     true);
 
 // == Theme Default Settings ===================================================
 // -- User Chrome --------------------------------------------------------------
@@ -371,3 +371,10 @@ user_pref("mousewheel.transaction.timeout",                  1500);            /
 user_pref("toolkit.scrollbox.horizontalScrollDistance",         4);            ///        5
 user_pref("toolkit.scrollbox.verticalScrollDistance",           3);            ///        3
 */
+
+user_pref("font.name.monospace.x-western", "Iosevka Term");
+user_pref("font.name.monospace.zh-CN", "LXGW WenKai Mono");
+user_pref("font.name.monospace.zh-HK", "LXGW WenKai Mono");
+user_pref("font.name.monospace.zh-TW", "LXGW WenKai Mono");
+user_pref("font.name.monospace.ja", "LXGW WenKai Mono");
+user_pref("font.name.monospace.kr", "LXGW WenKai Mono");
